@@ -21,9 +21,9 @@ programa {
       escreva("Pulga")
     senao se (palavra1 == "invertebrado" e palavra2 == "inseto" e palavra3 == "herbivoro")
       escreva("Lagarta")
-      senao se (palavra1 == "invertebrado" e palavra2 == "anelideo" e palavra3 == "hematofago")
+    senao se (palavra1 == "invertebrado" e palavra2 == "anelideo" e palavra3 == "hematofago")
       escreva("Sanguessuga")
-    senao se (palavra1 == "invertebrado" e palavra2 == "anel’deo" e palavra3 == "onivoro")
+    senao se (palavra1 == "invertebrado" e palavra2 == "anelideo" e palavra3 == "onivoro")
       escreva("Minhoca")
   }
 }
