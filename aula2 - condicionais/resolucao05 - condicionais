@@ -4,9 +4,9 @@ programa {
 
     escreva("Digite a primeira palavra: ")
     leia(palavra1)
-    escreva("Digite a primeira palavra: ")
+    escreva("Digite a segunda palavra: ")
     leia(palavra2)
-    escreva("Digite a primeira palavra: ")
+    escreva("Digite a terceira palavra: ")
     leia(palavra3)
 
     se (palavra1 == "vertebrado" e palavra2 == "ave" e palavra3 == "carnivoro")
@@ -21,9 +21,9 @@ programa {
       escreva("Pulga")
     senao se (palavra1 == "invertebrado" e palavra2 == "inseto" e palavra3 == "herbivoro")
       escreva("Lagarta")
-      senao se (palavra1 == "invertebrado" e palavra2 == "anelídeo" e palavra3 == "hematofago")
+      senao se (palavra1 == "invertebrado" e palavra2 == "anelideo" e palavra3 == "hematofago")
       escreva("Sanguessuga")
-    senao se (palavra1 == "invertebrado" e palavra2 == "onivoro" e palavra3 == "onivoro")
+    senao se (palavra1 == "invertebrado" e palavra2 == "anel’deo" e palavra3 == "onivoro")
       escreva("Minhoca")
   }
 }
