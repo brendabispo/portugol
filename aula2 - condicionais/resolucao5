@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    cadeia palavra1, palavra2, palavra3
+
+    escreva("Digite a primeira palavra: ")
+    leia(palavra1)
+    escreva("Digite a primeira palavra: ")
+    leia(palavra2)
+    escreva("Digite a primeira palavra: ")
+    leia(palavra3)
+
+    se (palavra1 == "vertebrado" e palavra2 == "ave" e palavra3 == "carnivoro")
+      escreva("Águia")
+    senao se (palavra1 == "vertebrado" e palavra2 == "ave" e palavra3 == "onivoro")
+      escreva("Pomba")
+    senao se (palavra1 == "vertebrado" e palavra2 == "mamifero" e palavra3 == "onivoro")
+      escreva("Homem")
+    senao se (palavra1 == "vertebrado" e palavra2 == "mamifero" e palavra3 == "herbivoro")
+      escreva("Vaca")
+    senao se (palavra1 == "invertebrado" e palavra2 == "inseto" e palavra3 == "hematofago")
+      escreva("Pulga")
+    senao se (palavra1 == "invertebrado" e palavra2 == "inseto" e palavra3 == "herbivoro")
+      escreva("Lagarta")
+      senao se (palavra1 == "invertebrado" e palavra2 == "anelídeo" e palavra3 == "hematofago")
+      escreva("Sanguessuga")
+    senao se (palavra1 == "invertebrado" e palavra2 == "onivoro" e palavra3 == "onivoro")
+      escreva("Minhoca")
+  }
+}

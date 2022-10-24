@@ -1,0 +1,48 @@
+programa {
+  funcao inicio() {
+    inteiro codigoProduto
+    inteiro quantidade
+
+    real valorUnitario1 = 10.00
+    real valorUnitario2 = 15.00
+    real valorUnitario3 = 18.00
+    real valorUnitario4 = 12.00
+    real valorUnitario5 = 8.00
+    real valorUnitario6 = 13.00
+
+    escreva("Digite o código do produto: ")
+    leia(codigoProduto)
+    escreva("Digite a quantidade: ")
+    leia(quantidade)
+
+    escolha(codigoProduto){
+
+    caso 1:
+        escreva("Produto: Cachorro-quente", "\nValor total: R$", quantidade * valorUnitario1)
+    pare
+
+    caso 2:
+        escreva("Produto: X-Salada", "\nValor total: R$", quantidade * valorUnitario2)
+    pare
+
+    caso 3:
+        escreva("Produto: X-Bacon", "\nValor total: R$", quantidade * valorUnitario3)
+    pare
+
+    caso 4:
+        escreva("Produto: Bauru", "\nValor total: R$", quantidade * valorUnitario4)
+    pare
+
+    caso 5:
+        escreva("Produto: Refrigerante", "\nValor total: R$", quantidade * valorUnitario5)
+    pare
+
+    caso 6:
+        escreva("Produto: Suco de Laranja", "\nValor total: R$", quantidade * valorUnitario6)
+    pare
+
+    caso contrario:
+        escreva("Código Inválido! Tente novamente.")
+        }
+  }
+}
