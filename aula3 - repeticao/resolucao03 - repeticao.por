@@ -6,14 +6,14 @@ programa {
 	   
 		
 		para(inteiro indice=0; indice < 10; indice ++){
-		escreva("Digite o ", indice + 1, "º número: ")
+		escreva("Digite o ", indice + 1, "Âº nÃºmero: ")
 		leia(vetor[indice])
 		limpa()
 		}
 		escreva("----------------------------------------------------------\n")
 		
 		para(inteiro indice=1; indice < 10; indice += 2){
-			escreva("Elementos nos índices ímpares: ", vetor[indice], "\n")
+			escreva("Elementos nos Ã­ndices Ã­mpares: ", vetor[indice], "\n")
 		}
 		escreva("----------------------------------------------------------\n")
 		
@@ -26,13 +26,12 @@ programa {
 		}
 		escreva("----------------------------------------------------------\n")
 		
-		para(inteiro indice=0; indice < 10; indice ++){
-		    soma += vetor[indice]
-			escreva("Soma: ", soma , "\n")
-		}
+		escreva("Soma: ", vetor[0] + vetor[1] + vetor[2] + vetor[3] + vetor[4] + vetor[5] + vetor[6] + vetor[7] +vetor[8] + vetor[9]  , "\n")
+		
 		escreva("----------------------------------------------------------\n")
 		
+		soma = vetor[0] + vetor[1] + vetor[2] + vetor[3] + vetor[4] + vetor[5] + vetor[6] + vetor[7] +vetor[8] + vetor[9]
 		media = soma/10
-		escreva("Média: ", media , "\n")
+		escreva("MÃ©dia: ", media , "\n")
 	}
 }
