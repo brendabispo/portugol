@@ -1,6 +1,12 @@
 programa {
 	funcao inicio() {
-		inteiro vetor[10] = {9, 2, 3, 6, 7, 1, 10, 4, 5, 8}, tamanho = 11, copia
+		inteiro vetor[10], tamanho = 11, copia
+		
+		para(inteiro i=0; i < 10; i ++){
+		escreva("Digite o ", i + 1, "º número: ")
+		leia(vetor[i])
+		limpa()
+		}	
 		
 		para(inteiro i=1; i < tamanho - 1; i++){
 		    para(inteiro j=0; j < tamanho - 1 - i; j++){
@@ -13,7 +19,7 @@ programa {
 		}
 		
 		para(inteiro i=0; i < tamanho - 1; i++){
-		    escreva("\n", i, "� numero: ", vetor[i], "\n")
+		    escreva("\n", i, "º numero: ", vetor[i], "\n")
 		}
 	}
 }
