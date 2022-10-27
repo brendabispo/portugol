@@ -13,7 +13,7 @@ programa
 
 			para(inteiro indiceJ=0; indiceJ < tamanhoJ; indiceJ++){
 			
-				escreva("Digite um valor para a posição [", indiceI, "][", indiceJ, "]: ")
+				escreva("Digite um valor para a posiÃ§Ã£o [", indiceI, "][", indiceJ, "]: ")
 				leia(matriz1[indiceI][indiceJ])
 				limpa()
 
@@ -26,7 +26,7 @@ programa
 
 			para(inteiro indiceJ=0; indiceJ < tamanhoJ; indiceJ++){
 			
-				escreva("\nO valor armazenado na posição [", indiceI, "][", indiceJ, "] é: ", matriz1[indiceI][indiceJ])
+				escreva("\nO valor armazenado na posiÃ§Ã£o [", indiceI, "][", indiceJ, "] Ã©: ", matriz1[indiceI][indiceJ])
 				
 		
 			}
@@ -34,8 +34,8 @@ programa
 		escreva("\n----------------------------------------------------------")
 		
 		para(inteiro indiceI=0; indiceI < tamanhoI * tamanhoJ; indiceI++){
-            vetor1[indiceI] = matriz1[indiceI/tamanhoJ][indiceI % tamanhoJ]
-            escreva("\nVetor ", indiceI, "º: ", vetor1[indiceI])
+            		
+			vetor1[indiceI] = matriz1[indiceI/tamanhoJ][indiceI % tamanhoJ]
 		}
 	}
 }
